@@ -1,0 +1,27 @@
+{
+  "name": "guppy-post-merge",
+  "version": "0.1.0",
+  "description": "Installs a post-merge git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy post-merge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealklanni/guppy-post-merge.git"
+  },
+  "keywords": [
+    "guppy",
+    "post-merge"
+  ],
+  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/guppy-post-merge/issues"
+  },
+  "homepage": "https://github.com/therealklanni/guppy-post-merge",
+  "dependencies": {
+    "guppy-cli": "^0.2.4"
+  }
+}
