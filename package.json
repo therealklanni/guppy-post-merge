@@ -1,6 +1,6 @@
 {
   "name": "guppy-post-merge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Installs a post-merge git-hook only, for guppy packages",
   "main": "index.js",
   "scripts": {
